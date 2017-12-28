@@ -1,0 +1,41 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "description": "test rest + boot + nosql project",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcommand",
+    "build": "webpack -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamosadovArtem/Boot_React_NoSQL.git"
+  },
+  "keywords": [
+    "react",
+    "boot",
+    "nosql"
+  ],
+  "author": "Artem Samosadov",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/SamosadovArtem/Boot_React_NoSQL/issues"
+  },
+  "homepage": "https://github.com/SamosadovArtem/Boot_React_NoSQL#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "requirejs": "^2.3.5",
+    "rest": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
